@@ -1,6 +1,21 @@
 #!/usr/bin/env python3
-num = input("Enter an integer: \n")
-Print("User input: " ", num, " " ")
+fib = 0
+while (True):
+  num = input("User input: ")
+  print("\n")
+  if (num >= 0):
+    if (num ==o):
+      return 0
+      break
+    elif (num == 1):
+      return 1
+      break
+    else:
+      return (fib(num-2)+fib(num-1))'
+      break
+  else:
+    print("Expected output: "Please enter a positive integer."")
+
 
 # Fibonacci Sequence Exercise
 # TODO: (Read detailed instructions in the Readme file)
