@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+num = input("Enter an integer: \n")
+Print("User input: " ", num, " " ")
 
 # Fibonacci Sequence Exercise
 # TODO: (Read detailed instructions in the Readme file)
