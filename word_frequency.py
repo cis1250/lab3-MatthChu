@@ -42,17 +42,18 @@ sentence = user_sentence.split()
 for word in sentence:
     nosym = ""
     for char in word:
-        if char.isalnum():
+        if char.isalnum():  
             nosym += char
     
-    nosym = nosym.lower()
+    nosym = nosym.lower()  
     
-    if word in words:
-        index = words.index(nosym)
-        count[index] += 1
-    else:
-        words.append(nosym)
-        count.append(1)
+    if nosym:  
+        if nosym in words:  
+            index = words.index(nosym)
+            count[index] += 1
+        else:
+            words.append(nosym)
+            count.append(1)
 
 for i in range(len(words)):
     print(words[i], ":", count[i])
